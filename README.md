@@ -10,7 +10,7 @@
 
 - `git status`でディレクトリの状態を確認する
 
-- `git commit -m first commit`でコミットする
+- `git commit -m "first commit"`でコミットする
 
 - `git log`でコミットの履歴を見る
 
