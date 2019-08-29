@@ -76,16 +76,20 @@
 
 
 
-プロジェクトに貢献する
+### プロジェクトに貢献する
 
 - 他の人のリポジトリを`フォーク`して、自分のアカウントにコピーする
 - `git clone [リポジトリURL]`でローカルPCにクローンして開発を進める
 - `git push `で変更内容を自分のリポジトリに反映させる
 - オリジナルのリポジトリにプルリクエストを送ってマージしてもらう
 
+#### Fork元のリポジトリに追従する
+- `git remote add upstream [Fork元のリポジトリURL]`でremoteにFork元のリポジトリを追加する
+- `git fetch upstream`でFork元の差分を取り込む
+- `git merge upstream`でFork元の差分をマージする
 
 
-ソーシャル
+## ソーシャル
 
 - [リポジトリをwatchする](https://help.github.com/ja/articles/watching-and-unwatching-repositories)
 
